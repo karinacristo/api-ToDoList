@@ -11,5 +11,5 @@ usuarioController(app)
 tarefaController(app)
 
 app.listen(porta, ()=>{
-    console.log(`Servidor aberto na http://localhost:${porta}`)
+    console.log(`Servidor aberto na http://localhost:${porta} e rastreamento da aplicação feito com nodemon`)
 })
